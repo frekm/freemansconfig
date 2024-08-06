@@ -17,6 +17,7 @@
 "+voicerecord"  "#Valve_Use_Voice_Communication"
 "say"           "#Valve_Chat_Message"
 "say_team"      "#Valve_Team_Message"
+"say_party"     "Message (Party)"
 "voice_menu_1"  "#TF_Voice_Menu_A"
 "voice_menu_2"  "#TF_Voice_Menu_B"
 "voice_menu_3"  "#TF_Voice_Menu_C"
