@@ -1,4 +1,4 @@
-*** Freeman's Config - simple v1.2.0 ***
+*** Freeman's Config - simple v1.3.0 ***
 
 *** Contents ******************************************************************
 1. Installation
@@ -25,6 +25,9 @@
     - In case of new installation:
         + In '..\custom\freemansconfig\cfg\', rename '_settings_backup.cfg' to
           '_settings.cfg' and edit your settings in this file
+        + Rename '_echos_backup.cfg' to '_echos.cfg' and adjust the amount
+          of "echos" according to your screen (this is the vertical padding
+          in the onscreen menus)
         + Start TF2 and open keyboard settings
         + Press 'Use defaults', then edit the bindings to your likings
 
@@ -99,7 +102,11 @@
         Classkey + 2x 1-4: destroy respective building
 
 
-*** Update notes **************************************************************
+*** Changelog *****************************************************************
+v1.3.0
+    Moved vertical padding in onscreen-menu to `_echos.cfg`, where it can
+        be more easily adjusted
+
 v1.2.0
     Removed unnecessary files in .rar-file
     Removed disguise-weaponswitcher-script to keep things simple
