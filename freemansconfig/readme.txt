@@ -23,11 +23,11 @@
       '..\Steam\steamapps\*accountname*\common\team fortress 2\tf\custom'
 
     - In case of new installation:
-        + In '..\custom\freemansconfig\cfg\', rename '_settings_backup.cfg' to
-          '_settings.cfg' and edit your settings in this file
-        + Rename '_echos_backup.cfg' to '_echos.cfg' and adjust the amount
+        + In '..\custom\freemansconfig\cfg\', rename '_settings.cfg' to
+          'settings.cfg' and edit your settings in this file
+        + Rename '_echos.cfg' to 'echos.cfg' and adjust the amount
           of "echos" according to your screen (this is the vertical padding
-          in the onscreen menus)
+          of the onscreen menus)
         + Start TF2 and open keyboard settings
         + Press 'Use defaults', then edit the bindings to your likings
 
