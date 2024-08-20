@@ -1,5 +1,7 @@
 # Freeman's config
 
+A [Team Fortress 2](https://www.teamfortress.com/) config.
+
 ## Contents
 - [Installation](#installation)
     - [Install config](#install-config)
@@ -14,6 +16,7 @@
         - [Demoman](#demoman)
         - [Engineer](#engineer)
         - [Medic](#medic)
+- [Remarks](#remarks)
 
 ## Installation 
 ### Install config:
@@ -101,3 +104,14 @@ If desired, one can always switch to the medicgun when hitting alt-attack
 using `attack2_activates_ubercharge`/`attack2_default`.
 
 This is enabled by default.
+
+## Remarks
+The "config" doesn't really know which weaponslot is currently equipped.
+It mostly keeps track due to your keyboard input (e.g., hitting _2_ generally
+means _weaponslot 2_ is now equipped).
+
+This can be wrong, e.g., when no equippable weapon is in _weaponslot 2_, but
+you switch to it by hitting _2_, or switching weapons as Heavy even though
+you are still rev'd with the minigun (thus not allowed to switch weapons yet).
+
+Then, the weaponslot-specific settings will be desynced. Turns out, generally not a problem.
